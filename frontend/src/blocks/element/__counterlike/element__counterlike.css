@@ -1,0 +1,9 @@
+.element__counterlike {
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 16px;
+  max-width: 25px;
+  margin: 0;
+}

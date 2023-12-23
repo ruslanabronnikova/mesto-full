@@ -1,0 +1,14 @@
+.element {
+  display: grid;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  border-radius: 10px;
+  margin: 0;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 1fr min-content;
+  grid-template-areas:
+    'image image'
+    'title buttonlike';
+}
+

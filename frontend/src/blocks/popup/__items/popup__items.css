@@ -1,0 +1,12 @@
+.popup__items {
+  padding: 0 0 9px;
+  border: none;
+  margin: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .popup__items {
+    padding: 8px 0;
+  }
+}
+

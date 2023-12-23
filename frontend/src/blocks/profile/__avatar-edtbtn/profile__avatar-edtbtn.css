@@ -1,0 +1,31 @@
+.profile__avatar-edtbtn{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.profile__avatar-edtbtn::after {
+  content: "";
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+.profile__avatar-edtbtn:hover::after{
+  background-image: url('../../../images/profile/Profilebtnedit.svg');
+  background-color:rgba(0, 0, 0, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 26px;
+  z-index: 2;
+}
+

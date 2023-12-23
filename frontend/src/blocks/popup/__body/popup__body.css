@@ -1,0 +1,21 @@
+.popup__body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 36px 34px;
+  max-width: 430px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+}
+
+@media screen and (max-width: 560px) {
+  .popup__body {
+    max-width: 282px;
+    padding: 25px 22px;
+  }
+}

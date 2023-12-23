@@ -1,0 +1,10 @@
+.popup__picture-title {
+  max-width: 291px;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 10px;
+  align-self: flex-start;
+  color: #FFFFFF;
+}

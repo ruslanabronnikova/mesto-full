@@ -1,0 +1,6 @@
+.heаder__info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
