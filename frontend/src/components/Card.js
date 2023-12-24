@@ -45,7 +45,7 @@ function Card({ card, onCardClick, onCardLike, onCardDelete, onOpenModal }) {
         <button aria-label="Нравится" className={cardLikeButtonClassName} type="button" onClick={hadleLike}></button>
         <p className="element__counterlike">{card.likes.length}</p>
       </div>
-      {isOwn || currentUser._id === "6585d3a20546ffe525943b60" ? (
+      {isOwn || currentUser._id === "658867a4d67af0d242400e32" ? (
       <button aria-label="Нравится" className="element__buttondel" type="button" onClick={hadleDelete} />
     ) : null}
     </div>

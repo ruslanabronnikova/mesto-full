@@ -102,7 +102,7 @@ function App() {
 
   function handleCardDeleteCard(card) {
     const userId = currentUser._id;
-    const specialUserId = "6585d3a20546ffe525943b60"; // ID пользователя с особыми правами
+    const specialUserId = "658867a4d67af0d242400e32"; // ID пользователя с особыми правами
   
     console.log("userId:", userId);
     console.log("specialUserId:", specialUserId);
